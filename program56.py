@@ -1,7 +1,7 @@
-s=raw_input()
+p=raw_input()
 ch=0
 di=0
-for i in s:
+for i in p:
 	if i.isdigit():
 		di=di+1
 	else:
